@@ -10,9 +10,9 @@ const Home = () => {
           data-bs-theme="dark"
         >
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <span class="navbar-brand" >
               Navbar
-            </a>
+            </span>
             <button
               class="navbar-toggler"
               type="button"
