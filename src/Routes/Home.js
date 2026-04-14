@@ -27,50 +27,49 @@ const Home = () => {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+                  <span class="nav-link active" aria-current="page" >
                     Home
-                  </a>
+                  </span>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <span class="nav-link" >
                     Link
-                  </a>
+                  </span>
                 </li>
                 <li class="nav-item dropdown">
-                  <a
+                  <span
                     class="nav-link dropdown-toggle"
-                    href="#"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     Dropdown
-                  </a>
+                  </span>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <span class="dropdown-item" >
                         Action
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <span class="dropdown-item" >
                         Another action
-                      </a>
+                      </span>
                     </li>
                     <li>
                       <hr class="dropdown-divider" />
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <span class="dropdown-item" >
                         Something else here
-                      </a>
+                      </span>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" aria-disabled="true">
+                  <span class="nav-link disabled" aria-disabled="true">
                     Disabled
-                  </a>
+                  </span>
                 </li>
               </ul>
             </div>
