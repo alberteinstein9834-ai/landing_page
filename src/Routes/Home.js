@@ -1,5 +1,9 @@
 import React from "react";
 import img1 from "../assets/images2.png";
+import { Link } from 'react-router-dom';
+
+
+
 
 const Home = () => {
   return (
@@ -9,6 +13,7 @@ const Home = () => {
           class="navbar navbar-expand-lg bg-body-tertiary "
           data-bs-theme="dark"
         >
+
           <div class="container-fluid">
             <span class="navbar-brand" >
               Navbar
@@ -32,9 +37,7 @@ const Home = () => {
                   </span>
                 </li>
                 <li class="nav-item">
-                  <span class="nav-link" >
-                    Link
-                  </span>
+                  <Link class="nav-link" to={'/todo'}>Todo</Link>
                 </li>
                 <li class="nav-item dropdown">
                   <span
@@ -75,10 +78,12 @@ const Home = () => {
             </div>
           </div>
         </nav>
+        <br />
+        <br />
 
         {/* carousel */}
 
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <div id="carouselExampleCaptions" class="container carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
