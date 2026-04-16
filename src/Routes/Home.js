@@ -39,40 +39,11 @@ const Home = () => {
                 <li class="nav-item">
                   <Link class="nav-link" to={'/todo'}>Todo</Link>
                 </li>
-                <li class="nav-item dropdown">
-                  <span
-                    class="nav-link dropdown-toggle"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </span>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <span class="dropdown-item" >
-                        Action
-                      </span>
-                    </li>
-                    <li>
-                      <span class="dropdown-item" >
-                        Another action
-                      </span>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <span class="dropdown-item" >
-                        Something else here
-                      </span>
-                    </li>
-                  </ul>
+                <li class="nav-item">
+                  <Link class="nav-link" to={'/login'}>Login</Link>
                 </li>
                 <li class="nav-item">
-                  <span class="nav-link disabled" aria-disabled="true">
-                    Disabled
-                  </span>
+                  <Link class="nav-link" to={'/register'}>Register</Link>
                 </li>
               </ul>
             </div>
