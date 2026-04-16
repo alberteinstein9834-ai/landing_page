@@ -100,7 +100,7 @@ const Home = () => {
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do e
             iusmod tempor incididunt ut labore et dolore magna aliqualksahfdoiasf.kjdsyflzdsf\jshdusgdaskgdul\s
             dsusydskjsaidsadwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-            dosaudsakisaudksajwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwdoi.</p>
+            dosaudsakisaudksajdufshalsu,dsakhdliudskshdisdksdidkjfsdfdjfsauydasvkudkafdoi.</p>
     </div>
 
 
