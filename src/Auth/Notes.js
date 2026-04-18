@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import './notes.css';
 
 const Notes = () => {
@@ -30,7 +30,7 @@ const Notes = () => {
     if (notes.length > 0 || localStorage.getItem('stickyNotesApp')) {
       persistNotes();
     }
-  }, [notes]);
+  });
 
   // Auto-hide alert after 3 seconds
   useEffect(() => {
@@ -50,9 +50,9 @@ const Notes = () => {
   };
 
   // Save notes to localStorage
-  const persistNotes = () => {
+  const persistNotes = useCallback(() => {
     localStorage.setItem('stickyNotesApp', JSON.stringify(notes));
-  };
+  }, [notes]);
 
   // Load notes from localStorage or default samples
   const loadNotesFromStorage = () => {
