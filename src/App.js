@@ -3,6 +3,7 @@ import Home from './Routes/Home';
 import Todo from './Routes/Todo';
 import Login from './Auth/Login';
 import Register from './Auth/Register';
+import Notes from './Auth/Notes';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path='/todo' element={<Todo/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
+        <Route path='/notes' element={<Notes/>}/>
       </Routes>
     </div>
     </BrowserRouter>

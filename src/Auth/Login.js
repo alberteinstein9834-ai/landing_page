@@ -14,7 +14,7 @@ const Login = () => {
         try {
             await signInWithEmailAndPassword(auth, email, password)
             console.log("logged in")
-            navigate("/")
+            navigate("/notes")
         } catch (error) {
             console.log(error)
 
